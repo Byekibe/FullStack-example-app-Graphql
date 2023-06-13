@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "back-end demo app for Apollo's lift-off course",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/index"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@apollo/server": "^4.7.3",
+    "@graphql-tools/mock": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6"
+  },
   "devDependencies": {
     "dotenv": "^8.6.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.22"
   },
   "author": "Raphael Terrier @R4ph-t",
   "license": "MIT",
